@@ -1,25 +1,25 @@
 .main-title{
-    text-align: center;
     margin-top: 290px;
+    text-align: center;
 }
 .main-title__sub-title{
     font-size: 36px;
-    color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
+    color: white;
 }
 .main-title__main-title{
     margin: 0;
     font-size: 52px;
-    color: white;
     font-family: 'Raleway', sans-serif;
+    color: white;
 }
 .main-title__description{
     margin-top: 15px;
     font-size: 16px;
-    color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
+    color: white;
 }
 .main-title__button{
     display: inline-block;
@@ -33,6 +33,11 @@
     border-bottom: 3px solid #736357;
     border-radius: 3px; 
     background-color: #998675;
+}
+.main-title__button:hover{
+    transition-duration: 0,1s;
+    transition-timing-function: ease-in;
+    transform: scale(1.1);
 }
 .slider{
     text-align: center;
@@ -55,15 +60,15 @@
     }
     .circle-slider{
         margin-top: 350px;
-        text-align: center;
         margin-bottom: 40px;
+        text-align: center;
         .circle-slider__item{
             display: inline-block;
+            margin-left: 10px;
             width: 15px;
             height: 15px;
             background-color: #999797;
             border-radius: 50%;
-            margin-left: 10px;
         }
         .circle-slider--active{
             border: 2px solid #c4b3a2;

@@ -51,30 +51,30 @@
 }
 
 .main-title {
-  text-align: center;
   margin-top: 290px;
+  text-align: center;
 }
 
 .main-title__sub-title {
   font-size: 36px;
-  color: white;
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
+  color: white;
 }
 
 .main-title__main-title {
   margin: 0;
   font-size: 52px;
-  color: white;
   font-family: 'Raleway', sans-serif;
+  color: white;
 }
 
 .main-title__description {
   margin-top: 15px;
   font-size: 16px;
-  color: white;
   font-family: 'Raleway', sans-serif;
   font-weight: lighter;
+  color: white;
 }
 
 .main-title__button {
@@ -89,6 +89,15 @@
   border-bottom: 3px solid #736357;
   border-radius: 3px;
   background-color: #998675;
+}
+
+.main-title__button:hover {
+  -webkit-transition-duration: 0,1s;
+          transition-duration: 0,1s;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .slider {
@@ -118,17 +127,17 @@
 
 .slider .circle-slider {
   margin-top: 350px;
-  text-align: center;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .slider .circle-slider .circle-slider__item {
   display: inline-block;
+  margin-left: 10px;
   width: 15px;
   height: 15px;
   background-color: #999797;
   border-radius: 50%;
-  margin-left: 10px;
 }
 
 .slider .circle-slider .circle-slider--active {
@@ -137,23 +146,23 @@
 }
 
 .advantages {
-  width: 1170px;
-  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 0 auto;
   margin-top: 80px;
-  height: 240px;
   padding-bottom: 80px;
+  width: 1170px;
+  height: 240px;
 }
 
 .advantages-item {
-  list-style: none;
-  width: 300px;
   position: relative;
+  width: 300px;
+  list-style: none;
 }
 
 .advantages__list {
@@ -168,15 +177,15 @@
 .advantages__title {
   text-align: center;
   font-size: 22px;
-  color: #555555;
   font-family: 'Raleway SemiBold', arial;
+  color: #555555;
 }
 
 .advantages-item p {
   margin-right: 0;
   width: 300px;
-  text-align: center;
   height: 70px;
+  text-align: center;
 }
 
 .advantages__description {
@@ -203,8 +212,8 @@
 }
 
 .main-content {
-  width: 1170px;
   margin: 0 auto;
+  width: 1170px;
 }
 
 .ideas__image {
@@ -273,47 +282,195 @@
 }
 
 .projects {
-  height: 1100px;
   margin: 200px  auto 0px auto;
+  height: 1100px;
   background-color: white;
 }
 
 .projects__title {
   margin-top: 130px;
   text-align: center;
-  color: #555555;
   font-size: 30px;
   font-family: 'Raleway SemiBold', arial;
+  color: #555555;
 }
 
 .projects__description {
-  width: 720px;
   margin: 35px auto 0px auto;
+  width: 720px;
   text-align: center;
-  color: #8c8c8c;
   font-size: 16px;
   font-family: 'Montserrat Light', arial;
+  color: #8c8c8c;
 }
 
 .projects-buttons {
-  text-align: center;
   margin: 45px auto 0px auto;
+  text-align: center;
 }
 
 .projects__buttons {
   margin-left: 10px;
+  padding: 10px 20px;
   font-family: 'Montserrat Light', arial;
   font-size: 14px;
-  padding: 10px 20px;
-  color: #b2b2b2;
   border: 1px solid #ebebeb;
   border-radius: 3px;
+  color: #b2b2b2;
 }
 
 .projects__buttons:nth-child(1) {
   color: white;
   background-color: #998675;
   border: 1px solid #998675;
+}
+
+.catalog-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 370px 370px 370px;
+      grid-template-columns: 370px 370px 370px;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  margin: 40px auto 0px auto;
+  width: 1170px;
+}
+
+.catalog__item {
+  position: relative;
+  display: inline-block;
+  min-width: 370px;
+  height: 340px;
+  background-color: #fbfaf8;
+}
+
+.catalog__element {
+  position: absolute;
+  display: inline-block;
+  bottom: 0px;
+  width: 370px;
+  height: 100px;
+  background-color: #fbfaf8;
+}
+
+.catalog__element-image {
+  display: inline-block;
+  width: 370px;
+  height: 240px;
+  background-image: url(../images/photo-item.png);
+  background-size: cover;
+}
+
+.catalog__title {
+  padding-left: 30px;
+  padding-top: 30px;
+  text-align: start;
+  font-family: 'Raleway SemiBold', arial;
+  font-size: 20px;
+  color: #c7b299;
+}
+
+.catalog__element--black {
+  background-color: #362f2d;
+}
+
+.catalog__title--white {
+  color: white;
+}
+
+.catalog__decription {
+  display: block;
+  padding-top: 12px;
+  color: #d1d1d1;
+  font-size: 14px;
+}
+
+.catalog__decription--hover {
+  color: #c7b299;
+}
+
+.catalog__button {
+  display: inline-block;
+  position: absolute;
+  right: 47%;
+  margin-left: 50px;
+  margin-top: 40px;
+  padding: 17px 37px;
+  font-family: 'Raleway ExtraBold', arial;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  line-height: 1.643;
+  border-bottom: 3px solid #736357;
+  border-radius: 3px;
+  background-color: #998675;
+}
+
+.page-footer {
+  background-color: #191919;
+  height: 510px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.footer__main {
+  padding-top: 80px;
+  width: 270px;
+  height: 290px;
+}
+
+.footer__decription {
+  display: inline-block;
+  margin-top: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: #555555;
+  line-height: 22px;
+}
+
+.footer__link {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Raleway SemiBold', arial;
+  color: white;
+}
+
+.recent-post__title {
+  padding-top: 100px;
+  font-family: 'Raleway Bold', arial;
+  font-size: 24px;
+  color: white;
+}
+
+.recent-post {
+  margin-left: 50px;
+}
+
+.recent-post__content {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid #252525;
+  font-size: 18px;
+  font-family: 'Raleway SemiBold', arial;
+  line-height: 20px;
+  color: #555555;
+}
+
+.recent-post__time {
+  display: block;
+  padding-top: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: #363636;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -660,6 +817,7 @@ template {
 }
 
 * {
+  outline: none;
   margin: 0;
   padding: 0;
 }

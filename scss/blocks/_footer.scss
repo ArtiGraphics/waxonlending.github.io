@@ -1,0 +1,63 @@
+.page-footer{
+    background-color: #191919;
+    height: 510px;
+    
+}
+.footer{
+    display: flex;
+
+    width: 1200px;
+    margin: 0px auto;
+    
+}
+
+.footer__main{
+    padding-top: 80px;
+    width: 270px;
+    height: 290px;
+}
+.footer__decription{
+    display: inline-block;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #555555;
+    line-height: 22px;
+}
+.footer__link{
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Raleway SemiBold', arial;
+    color: white;
+}
+
+.recent-post__title{
+    padding-top: 100px;
+    font-family: 'Raleway Bold', arial;
+    font-size: 24px;
+    color: white;
+}
+.recent-post{
+    margin-left: 50px;
+}
+
+.recent-post__content{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 24px;
+    border-bottom: 2px solid #252525;
+    font-size: 18px;
+    font-family: 'Raleway SemiBold', arial;
+    line-height: 20px;
+    color: #555555;
+}
+.recent-post__time{
+    display: block;
+    padding-top: 30px;
+    font-family:  'Raleway', sans-serif;
+    font-size: 14px;
+    color: #363636;
+    
+}

@@ -1,17 +1,17 @@
 .advantages{
-   width: 1170px;
-   margin: 0 auto;
    display: flex;
    justify-content: space-between;
+   margin: 0 auto;
    margin-top: 80px;
-   height: 240px;
    padding-bottom: 80px;
+   width: 1170px;
+   height: 240px;
 }
 
 .advantages-item{
-    list-style: none;
-    width: 300px;
     position: relative;
+    width: 300px;
+    list-style: none;
 }
 .advantages__list{
    display: flex;
@@ -22,14 +22,15 @@
     
     text-align: center;
     font-size: 22px; 
-    color: #555555;
     font-family: 'Raleway SemiBold', arial;
+    color: #555555;
 }
 .advantages-item p{
     margin-right: 0;
     width: 300px;
-    text-align: center;
     height: 70px;
+    text-align: center;
+    
 }
 .advantages__description {
     margin-top: 25px;
